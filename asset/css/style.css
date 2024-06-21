@@ -1,1 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+}
+.container{
+   max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    /* border-bottom: 1px solid wheat; */
+}
+.header{
+    background-color: #191919;
+    
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    background-color:#191919;
+}
 
+.logo img {
+    height: 25px;
+    width: 144px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Manrope,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.cart img {
+    height: 25px;
+    width: 23px;
+}
+
+/* hero-section */
+
+section.hero-section {
+    width: 100%;
+    background-color: #191919;
+}
+
+.text p{
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-family: Manrope, sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.text h2{
+    font-family: Manrope,sans-serif;
+    color: white;
+    font-size: 56px;
+    font-family: Manrope,sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-image: url("/asset/images/image-hero.jpg");
+    min-height: 650px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.col-1{
+    width: 100%;
+
+}
+
+.text h6{
+    font-family: Manrope,sans-serif;
+    color: #ffffff80;
+    font-size: 15px;
+    font-family: Manrope, sans-serif;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.col-1 button {
+    padding: 14px 32px;
+    background-color: #d87d4a;
+    color: white;
+    font-size: 14px;
+    font-family: Manrope,sans-serif;
+    font-weight: 600;
+}
+
+/* second section products */
+
+.products-section{
+    width: 100%;
+    padding: 70px 0px;
+
+}
+
+.product-card img {
+    width: 132px;
+    height: 128px;
+}
+.products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 50px 40px 20px 40px;
+    position: relative;
+    gap:10px;
+    height:170px;
+  border-radius:12px;
+
+}
+.product-card img {
+    width: 132px;
+    height: 128px;
+    position: absolute;
+    bottom: 55%;
+}
+
+.product-card button {
+    border: none;
+    color: orange;
+  padding:10px
+}
+
+/* third section zx9 speaker */
+
+.col-2 img {
+    width: 410px;
+    height: 497px;
+}
+
+.ZX9 {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: #d87d4a;
+    justify-content: center;
+    align-items: center;
+  height:593px;
+  background-image: url("/asset/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  
+}
+
+section.ZX9-SPEAKER {
+    padding: 50px 0px;
+}
+
+.col-3 h2 {
+    font-family: Manrope,sans-serif;
+    font-size: 56px;
+    color: white;
+    font-family: Manrope sans-serif;
+}
+
+.col-3 p {
+    font-family: Manrope,sans-serif;
+    font-size: 16px;
+    color: white;
+    font-family: Manrope sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content:center  ; 
+}
+
+.col-3 button {
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope sans-serif;
+  border-width:0px;
+}
+
+/* fourth section zx7 */
+
+.ZX7{
+    background-image: url("/asset/images/image-speaker-zx7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    display: flex;
+    padding: 0px 80px;
+    border-radius: 12px;
+}
+
+section.ZX7-Speaker {
+    padding: 30px 0px;
+  display:flex;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+}
+.col-4 h2 {
+    font-family: Manrope,sans-serif;
+    font-size: 28px;
+  margin-bottom:20px
+   
+}
+.col-4 button {
+    padding: 10px 18px;
+    background-color: transparent;
+    color:black;
+}
+
+/* fifth section yx1 */
+
+.YX1-EARPHONES{
+    padding: 50px 0px;
+}
+
+.YX1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.col-5 {
+    background-image: url("/asset/images/image-earphones-yx1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 12px;
+}
+
+.col-6 {
+    background-color: #f1f1f1;
+    height: 320px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.col-6 button{
+    padding: 10px 18px;
+    background-color: transparent;
+    color:black;
+}
+.col-6 h2 {
+    font-family: Manrope,sans-serif;
+    font-size: 28px;
+  margin-bottom:20px
+   
+}
+
+/* last section  best*/
+
+.best{
+    padding: 70px 0px;
+}
+
+.best-text {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.client-img img {
+    height: 580px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.client-text {
+    padding: 30px;
+}
+
+.client-text h2 {
+    font-family: Manrope,sans-serif;
+    font-size: 30px;
+    color: orange;
+    text-align: end;
+    padding-right: 60px;
+    margin-bottom: 60px;
+}
+
+.client-text p {
+    font-family: Manrope,sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: gray;
+}
+
+/* footer */
+
+.footer{
+    background-color: #191919;
+    
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    background-color:#191919;
+}
+
+/* new page headphones */
+
+/* banner section */
+
+section.banner-section {
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.headphones h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Manrope , sans-serif;
+}
+
+/* second section xx99 */
+
+.xx99 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+
+.xx99-text {
+    padding: 20px;
+}
+
+.xx99-img img {
+    width: 541px;
+    height: 561px;
+}
+
+section.xx99-headphones {
+    padding: 50px 0px;
+}
+
+.xx99-text h3 {
+    font-size: 14px;
+    font-family: Manrope,sans-serif;
+    color: #d87d4a;
+    letter-spacing: 0.526rem;
+    margin-bottom: 20px;
+}
+
+.xx99-text h2 {
+    font-size: 28px;
+    color: #191919;
+    font-family: Manrope,sans-serif;
+    font-weight: 600;
+    margin-bottom:24px;
+}
+
+.xx99-text p {
+    font-size: 15px;
+    font-family: Manrope, sans-serif;
+    color: #00000080;
+    line-height: 1.5em;
+    margin-bottom:24px;
+}
+
+.xx99-text button ,span {
+    padding: 14px 28px;
+    color: 13px;
+    background-color: #fa935a;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+/* single page */
+
+.xx99-text h6 {
+    font-size: 18px;
+    font-family: Manrope,sans-serif;
+    margin-bottom: 24px;
+}
+
+/* second section */
+
+section.single-page-section {
+    padding: 50px 0px;
+}
+
+.features-text h2 {
+    font-size: 32px;
+    font-family: Manrope,sans-serif;
+    margin-bottom: 20px;
+}
+.features-text p {
+    font-size: 15px;
+    font-family: Manrope,sans-serif;
+    line-height: 1.5em;
+    color: #00000080;
+    letter-spacing: 0.5px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.product-size h2{
+    font-size: 32px;
+    font-family: Manrope,sans-serif;
+    margin-bottom: 20px;
+}
+
+.product-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul.product-size-list li {
+    font-size: 15px;
+    font-family: Manrope,sans-serif;
+    color: #00000080;
+    line-height: 1.6em;
+}
+
+/* product images multiple */
+
+section.product-multiple-img {
+    padding: 50px 0px;
+}
+
+.col-product-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.product-col1 {
+    display: block;
+ 
+}
+.product-col1 img {
+    width: 444px;
+    height: 291px;
+  margin-bottom:5px
+}
+
+
+
+
+/* checkout-2 page css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.checkout-form {
+    display: flex;
+    gap: 30px;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+ */
